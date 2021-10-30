@@ -1,0 +1,6 @@
+[submodule "externals/libsodium"]
+	path = externals/libsodium
+	url = https://github.com/UnicordDev/libsodium
+[submodule "externals/webrtc-uwp-sdk"]
+	path = externals/webrtc-uwp-sdk
+	url = https://github.com/webrtc-uwp/webrtc-uwp-sdk
