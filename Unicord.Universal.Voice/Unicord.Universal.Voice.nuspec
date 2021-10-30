@@ -2,7 +2,7 @@
 <package>
   <metadata>
     <id>Unicord.Universal.Voice</id>
-    <version>1.0.0</version>
+    <version>1.0.1</version>
     <title>Unicord.Universal.Voice</title>
     <authors>Wan Kerr Co. Ltd.</authors>
     <requireLicenseAcceptance>false</requireLicenseAcceptance>
@@ -20,7 +20,7 @@
     <file src="bin\Release\Win32\Unicord.Universal.Voice.winmd" target="lib\uap10.0" />
     <file src="bin\Release\Win32\Unicord.Universal.Voice.xml" target="lib\uap10.0" />
 
-    <file src="bin\Release\ARM\Unicord.Universal.Voice.winmd" target="runtimes\win10-arm\native"/>
+    <!-- <file src="bin\Release\ARM\Unicord.Universal.Voice.winmd" target="runtimes\win10-arm\native"/> -->
     <file src="bin\Release\ARM\Unicord.Universal.Voice.pri" target="runtimes\win10-arm\native"/>
     <file src="bin\Release\ARM\Unicord.Universal.Voice.dll" target="runtimes\win10-arm\native"/>
 
@@ -30,11 +30,11 @@
       <file src="bin\Release\ARM64\Unicord.Universal.Voice.dll" target="runtimes\win10-arm64"/> 
     -->
 
-    <file src="bin\Release\x64\Unicord.Universal.Voice.winmd" target="runtimes\win10-x64\native"/>
+    <!-- <file src="bin\Release\x64\Unicord.Universal.Voice.winmd" target="runtimes\win10-x64\native"/> -->
     <file src="bin\Release\x64\Unicord.Universal.Voice.pri" target="runtimes\win10-x64\native"/>
     <file src="bin\Release\x64\Unicord.Universal.Voice.dll" target="runtimes\win10-x64\native"/>
 
-    <file src="bin\Release\Win32\Unicord.Universal.Voice.winmd" target="runtimes\win10-x86\native"/>
+    <!-- <file src="bin\Release\Win32\Unicord.Universal.Voice.winmd" target="runtimes\win10-x86\native"/> -->
     <file src="bin\Release\Win32\Unicord.Universal.Voice.pri" target="runtimes\win10-x86\native"/>
     <file src="bin\Release\Win32\Unicord.Universal.Voice.dll" target="runtimes\win10-x86\native"/>
   </files>
