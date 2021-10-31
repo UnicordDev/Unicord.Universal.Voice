@@ -125,7 +125,7 @@
       <DisableSpecificWarnings>28204</DisableSpecificWarnings>
       <PreprocessorDefinitions>_WINRT_DLL;%(PreprocessorDefinitions)</PreprocessorDefinitions>
       <AdditionalUsingDirectories>$(WindowsSDK_WindowsMetadata);$(AdditionalUsingDirectories)</AdditionalUsingDirectories>
-      <AdditionalIncludeDirectories>..\externals\libsodium\src\libsodium\include;..\externals\webrtc-uwp-sdk\webrtc\xplatform\webrtc;..\externals\webrtc-uwp-sdk\webrtc\xplatform\zsLib;..\externals\webrtc-uwp-sdk\webrtc\xplatform\webrtc\third_party\abseil-cpp;..\externals\webrtc-uwp-sdk\webrtc\xplatform\webrtc\third_party\opus\src\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>..\externals\libsodium\src\libsodium\include;..\externals\webrtc-uwp-sdk\webrtc\xplatform\webrtc;..\externals\webrtc-uwp-sdk\webrtc\xplatform\zsLib;..\externals\webrtc-uwp-sdk\webrtc\xplatform\chromium\third_party\abseil-cpp;..\externals\webrtc-uwp-sdk\webrtc\xplatform\chromium\third_party\opus\src\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
     </ClCompile>
     <Link>
       <SubSystem>Console</SubSystem>
